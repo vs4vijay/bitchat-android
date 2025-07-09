@@ -9,7 +9,7 @@ This workflow automatically builds and releases the Android APK when a new versi
 
 ### Steps
 1. **Checkout code** - Retrieves the repository code
-2. **Set up Java 11** - Configures Java environment for Android builds
+2. **Set up Java 17** - Configures Java environment for Android builds
 3. **Setup Gradle** - Configures Gradle with caching for faster builds
 4. **Grant execute permission** - Makes gradlew executable
 5. **Build Release APK** - Builds the release APK using `./gradlew assembleRelease`
